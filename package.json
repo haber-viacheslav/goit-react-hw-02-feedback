@@ -1,12 +1,14 @@
 {
-  "name": "react-study-body",
+  "name": "goit-react-hw-02-feedback",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://haber-viacheslav.github.io/react-study-body/",
+  "homepage": "https://haber-viacheslav.github.io/goit-react-hw-02-feedback/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "formik": "^2.2.9",
+    "nanoid": "^4.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",

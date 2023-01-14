@@ -1,4 +1,11 @@
 import { Component } from 'react';
+
+// Nanoid---------------------------------------
+
+//import { nanoid } from 'nanoid'
+//model.id = nanoid() //=> "V1StGXR8_Z5jdHi6B-myT"
+
+//--------------------------------------------------
 // import { Profile } from './Profile/Profile';
 // import { Statistics } from './Statistics/Statistics';
 // import { FriendList } from './FriendList/FriendList';
