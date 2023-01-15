@@ -1,1 +1,1 @@
-### React study and practice
+### GoIT-react-hw-02-feedback
