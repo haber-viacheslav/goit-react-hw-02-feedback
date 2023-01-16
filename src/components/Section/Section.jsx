@@ -1,10 +1,18 @@
+import PropTypes from 'prop-types';
+import { SectionWrp, SectionTitle } from './Section.styled';
+
 const Section = ({ title, children }) => {
   return (
-    <section>
-      <h2>{title}</h2>
+    <SectionWrp>
+      <SectionTitle>{title}</SectionTitle>
       {children}
-    </section>
+    </SectionWrp>
   );
+};
+
+Section.propTypes = {
+  title: PropTypes.string.isRequired,
+  children: PropTypes.node,
 };
 
 export default Section;

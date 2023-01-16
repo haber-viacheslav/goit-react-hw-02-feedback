@@ -1,6 +1,6 @@
 import { Component } from 'react';
-import FeedbackOptions from './FeedbackOptions';
 import Section from './Section';
+import FeedbackOptions from './FeedbackOptions';
 import Statistics from './Statistics';
 import Notification from './Notification';
 
@@ -31,9 +31,8 @@ export class App extends Component {
         style={{
           height: '100vh',
           display: 'flex-start',
+          padding: '40px',
           flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
           gap: '40px',
           color: '#010101',
         }}
