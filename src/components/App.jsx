@@ -3,8 +3,16 @@ import Section from './Section';
 import FeedbackOptions from './FeedbackOptions';
 import Statistics from './Statistics';
 import Notification from './Notification';
-
+import PropTypes from 'prop-types';
 export class App extends Component {
+  static defaultProps = {
+    state: PropTypes.shape({
+      good: PropTypes.number.isRequired,
+      neutral: PropTypes.number.isRequired,
+      bad: PropTypes.number.isRequired,
+    }).isRequired,
+  };
+
   state = {
     good: 0,
     neutral: 0,

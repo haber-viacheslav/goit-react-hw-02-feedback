@@ -5,13 +5,7 @@ import {
   StatisticsValue,
 } from './Statistics.styled';
 
-export const Statistics = ({
-  good,
-  neutral,
-  bad,
-  total,
-  positivePercentage,
-}) => {
+const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
     <StatisticsWrp>
       <StatisticsItem>
